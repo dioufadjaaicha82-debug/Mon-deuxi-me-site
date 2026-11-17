@@ -1,0 +1,268 @@
+
+ 
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Playwrite+DK+Uloopet+Guides&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+
+}
+  /* debut de l'entete */
+   #entete{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: rgb(135, 81, 90);
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 2px 2px 6px black;
+    z-index: 1000;
+    display: flex;
+   }
+   #logo h1{
+    font-size: 25px;
+    font-family: Poppins;
+    color: rgb(156, 117, 117);
+    text-shadow: 2px 2px 3px black;
+   }
+   #logo h1 span{
+    color:brown;
+   }
+   #lien a{
+    color: rgb(0, 0, 0);
+    background-color: rgb(188, 144, 161);
+    padding: 2px 7px;
+    text-decoration: none;
+    margin: 6px;
+   }
+   #lien a:hover{
+     color:rgb(89, 12, 12);
+    background-color:rgb(153, 38, 38);
+    padding: 2px 7px;
+    text-decoration: none;
+    margin: 20px;
+    border-radius: 8px;  
+    transition: .5s;
+    letter-spacing: 2px;
+   }
+    /* fin de l'entete */
+ /* debut de section hero */
+ #hero{
+  background-color: white;  
+  padding: 1rem 10%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10rem;
+  margin-top:4rem;
+  align-items: center;
+ }
+ #hero .texte{
+  width: 40%;
+ }
+  #hero .texte h1{
+    font-size: 45px;
+    font-family: poppins;
+ }
+ #hero .texte h1 span{
+  color: rgb(113, 13, 13);
+  text-shadow: 1px 1px 2px black;
+ }
+ 
+ 
+ #hero .cta{
+  display: flex;
+ }
+  #hero .cta a{
+    margin: 6px;
+    text-decoration: none;
+    background:    rgb(107, 33, 33);
+    color: white;
+    padding: 4px 10px;
+    font-family: poppins;
+  }
+  #hero .cta .reserver{
+    margin: 6px;
+    text-decoration: none;
+    background: rgb(113, 22, 22);
+    color: white;
+    padding: 4px 10px;
+    font-family: poppins;
+  }
+   #hero #image{
+    width: 40%;
+   }
+    #hero #image img{
+      width: 100%;
+    }
+      /* fin de section hero  */
+      /* debut section about */
+      #about{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 4px 10%;
+        gap: 10%;
+      }
+      #about #img-about{
+        width:100%;
+      }
+      #about #img-about img{
+        width: 100%;
+      }
+      #about #txt-about{
+        width: 100%;
+      }
+      #about #txt-about h2{
+        color: black;
+        font-size: 23px;
+        text-align: center;
+        text-transform: uppercase;
+      }
+      #about #txt-about p{
+        font-size: 16px;
+      }
+      #about #txt-about #trio{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10rem;
+      }
+      #first{
+        background-color: rgb(57, 10, 25);
+        border-radius: 10px 40px 6px 0px;
+        padding: 2px 15px;
+      }
+      #first h5{
+        font-size: 16px;
+        color: white;
+        text-align: center;
+      }
+      #first p{
+        font-size: 16px;
+        color: white;
+        text-align: center;
+      }
+       #second{
+        background-color: rgb(156, 6, 56);
+        border-radius: 10px 40px 6px 0px;
+        padding: 2px 15px;
+      }
+      #second h5{
+        font-size: 16px;
+        color: white;
+        text-align: center;
+      }
+      #second p{
+        font-size: 16px;
+        color: white;
+        text-align: center;
+      }
+       #three{
+        background-color: rgb(42, 40, 40);
+        border-radius: 10px 40px 6px 0px;
+        padding: 2px 15px;
+      }
+      #three h5{
+        font-size: 16px;
+        color: white;
+        text-align: center;
+      }
+      #three p{
+        font-size: 16px;
+        color: white;
+        text-align: center;
+      }
+      /* fin section about */
+      /* debut section sevice */
+      #nomservice h1{
+        display: flex;
+        justify-content: center;
+        color: rgb(0, 0, 0);
+      }
+      #card{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 2%;
+        padding: 2px 10%;
+      }
+      #card #chaquecard{
+    width: 40%;
+}
+#card #chaquecard #card-image img{
+  width: 100%;
+  border-radius: 20px;
+} 
+
+#card #chaquecard #card-txt h5{
+    display: flex;
+    justify-content: center;
+    font-size:17px;
+}
+#card #chaquecard #card-txt p{
+    display: flex;
+    justify-content: center;
+    font-size:15px;
+}
+      /* fin section about */
+      /* debut section Team */
+      .Team{
+        background: white;
+        padding: 4rem 10%;
+      }
+      .containers{
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+      .title-description{
+        text-align: center;
+        margin-bottom: 2rem;
+      }
+      .title-description h2{
+        font-size: 2.2rem;
+        text-transform: uppercase;
+        margin-bottom: .5rem;
+        letter-spacing: 1px;
+      }
+      .title-description p{
+        color: grey;
+        font-size: 1rem;
+      }
+      .team-gris{
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap:1.8rem ;
+      }
+      #team-card{
+        display: flex;
+        flex-direction: column;
+        border-radius: 20px;
+        background: rgb(175, 117, 129);
+        box-shadow: 0 18px 40px black;
+        overflow: hidden;
+
+      }
+      .team-card img{
+        width: 100%;
+        display: block;
+        height: 240px;
+        object-fit: cover; 
+        border-radius: 20px 0 0;
+      }
+      .team-card h3{
+        margin: 1rem 1.2rem 0.2rem;
+        font-size: 1.2rem;
+
+      }
+      .team-card span{
+        display: block;
+        margin: 0 1.2rem 1rem;
+        text-transform: uppercase;
+        font-size: 1rem;
+        letter-spacing: 1px;
+        }
+        .team-card p{
+         margin: 0 1.2rem 1.4rem;
+        }
+      /* fin section Team */
+     
+      
